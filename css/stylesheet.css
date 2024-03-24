@@ -1,0 +1,57 @@
+/* CSS Document */
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+/* Sections */
+.logo-section {
+	padding: 0% 0% 0% 3%;
+}
+
+.bgimage-section {
+	background-image: url("../images/john-carrigg-bg-2.jpg");
+	background-size: cover;
+    background-position: center;
+    height: 70vh; /* Adjust height as needed */
+    position: relative;
+}
+
+/* Style for the overlay container */
+.overlay-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Style for the overlay images */
+.overlay-image {
+    position: absolute;
+	height: auto;
+    width: auto; /* Adjust width as needed */
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+}
+
+.slogan-image {
+    top: 47.5%; /* Adjust vertical position */
+    left: 60.3%; /* Adjust horizontal position */
+	transform: translate(-50%, -50%);
+}
+
+.phonenumber-image {
+    top: 88.3%; /* Adjust vertical position */
+    left: 60.3%; /* Adjust horizontal position */
+	transform: translate(-50%, -50%);
+}
+
+.nav-section {
+	color: #fff;
+	background-color: #142441;
+}
