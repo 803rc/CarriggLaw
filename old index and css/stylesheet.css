@@ -15,7 +15,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bgimage-section {
-	height: 100%;
 	background-image: url("../images/john-carrigg-bg-2.jpg");
 	background-size: cover;
     background-position: center;
@@ -25,29 +24,27 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Style for the overlay container */
 .overlay-container {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
+	max-width: 100%;
+	height: auto;
 }
 
 /* Style for the overlay images */
 .overlay-image {
-    position: fixed;
+    position: absolute;
     width: auto;
     max-width: 100%;
 }
 
 .slogan-image {
-    top: 47.5%; /* Adjust vertical position */
-    left: 60.3%; /* Adjust horizontal position */
+    top: 47.5%;
+    left: 40.3%;
 	transform: translate(-50%, -50%);
 }
 
 .phonenumber-image {
-    top: 88.3%; /* Adjust vertical position */
-    left: 60.3%; /* Adjust horizontal position */
+    top: 88.3%;
+    left: 40.3%;
 	transform: translate(-50%, -50%);
 }
 
@@ -87,4 +84,26 @@ h1, h2, h3, h4, h5, h6 {
     background: -webkit-gradient(linear, left top, left bottom, from(#4b1a13), to(#7d2b20));
     background: -moz-linear-gradient(top, #4b1a13, #7d2b20);
     background: linear-gradient(to bottom, #4b1a13, #7d2b20);
+}
+
+
+
+img {
+    width: 100%; /* Image will always take 100% width of its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Adjust image size for smaller screens */
+    img {
+        max-width: 20%; /* Limit image width to 80% of the viewport width */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Further adjust image size for even smaller screens */
+    img {
+        max-width: 30%; /* Limit image width to 90% of the viewport width */
+    }
 }
