@@ -153,6 +153,7 @@ img {
   border-radius: 5px;
   padding: 15px;
   margin: 2%;
+  text-align: center;
 }
 
 .cardcol:hover {
@@ -258,7 +259,7 @@ img {
 
 .footer2 {
   font-size: 12px;
-  background-color: #1c3a5e;
+  background-color: #022444;
   color: #fff;
   line-height: 35px;
   display: inline-block;
@@ -351,6 +352,45 @@ img {
     left: 38%;
     width: 420px;
   }
+
+  .cardcol {
+    max-width: 105px;
+    display: block;
+    background-color: #1c3a5e;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 2%;
+  }
+
+  .chooserow {
+    padding: 3% 0% 0% 0%;
+    background-color: #8d1812;
+    height: 145px;
+  }
+  
+  .choosediv {
+    max-width: 190px;
+    padding: 0% 3% 0% 3%;
+  }
+
+  .chooseimg {
+    position: relative;
+    top: -36px;
+    left: 0%;
+  }
+
+  .footer2 {
+    font-size: 12px;
+    background-color: #1c3a5e;
+    color: #fff;
+    line-height: 35px;
+    display: inline-block;
+    padding: 1% 10% 0% 10%;
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -373,6 +413,39 @@ img {
     top: 51.8%;
     left: 37%;
     width: 44%;
+  }
+
+  .cardcol {
+    max-width: 90px;
+    display: block;
+    background-color: #1c3a5e;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 2%;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  .chooserow {
+    padding: 3% 0% 0% 0%;
+    background-color: #8d1812;
+    height: 125px;
+  }
+  
+  .choosediv {
+    max-width: 165px;
+    padding: 0% 3% 0% 3%;
+  }
+
+  .chooseimg {
+    position: relative;
+    top: -28px;
+    left: 0%;
   }
 }
 
@@ -400,6 +473,39 @@ img {
     top: 53.9%;
     left: 39%;
     width: 39%;
+  }
+
+  .cardcol {
+    max-width: 80px;
+    display: block;
+    background-color: #1c3a5e;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 2%;
+  }
+
+  .card-text {
+    font-size: 10px;
+  }
+
+  .chooserow {
+    padding: 3% 0% 0% 0%;
+    background-color: #8d1812;
+    height: 125px;
+  }
+  
+  .choosediv {
+    max-width: 140px;
+    padding: 0% 3% 0% 3%;
+  }
+
+  .chooseimg {
+    position: relative;
+    top: -21px;
+    left: 0%;
   }
 }
 
@@ -439,5 +545,110 @@ img {
     top: 57.6%;
     left: 37%;
     width: 44%;
+  }
+
+  .cardcol {
+    max-width: 90px;
+    display: block;
+    background-color: #1c3a5e;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 2%;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  .chooserow {
+    padding: 3% 0% 0% 0%;
+    background-color: #8d1812;
+    height: 125px;
+  }
+  
+  .choosediv {
+    max-width: 130px;
+    padding: 0% 3% 0% 3%;
+  }
+
+  .chooseimg {
+    position: relative;
+    top: -17px;
+    left: 0%;
+  }
+}
+
+@media (max-width: 384px) {
+  .logoimg {
+    width: 85%;
+    padding-bottom: 2%;
+  }
+
+  .logo-section {
+    text-align: center;
+    padding: 1% 0% 3% 3%;
+  }
+
+  .top-button {
+    text-align: center;
+    width: 50%;
+    font-size: 12px;
+  }
+
+  .logo-section {
+    text-align: center;
+  }
+
+  .nav-container {
+    white-space: nowrap;
+    text-align: center;
+    font-size: small;
+  }
+
+  .hero-wrapper {
+    width: 100%;
+    height: 240px;
+  }
+
+  .hero-content {
+    top: 60.8%;
+    left: 37%;
+    width: 44%;
+  }
+
+  .cardcol {
+    max-width: 90px;
+    display: block;
+    background-color: #1c3a5e;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 2%;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  .chooserow {
+    padding: 3% 0% 0% 0%;
+    background-color: #8d1812;
+    height: 125px;
+  }
+  
+  .choosediv {
+    max-width: 130px;
+    padding: 0% 3% 0% 3%;
+  }
+
+  .chooseimg {
+    position: relative;
+    top: -15px;
+    left: 0%;
   }
 }
