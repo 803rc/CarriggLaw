@@ -1,7 +1,13 @@
 /* CSS Document */
 body {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
+  background: #FFF;
+    color: #838585;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -159,7 +165,7 @@ a:active {
     background-position: center;
     background-repeat: repeat;
     text-align: center;
-    padding: 2% 15% 0% 15%;
+    padding: 2% 20% 0% 20%;
   }
 
   .biotext {
@@ -175,6 +181,7 @@ a:active {
     background-size: contain;
     background-position: center;
     background-repeat: repeat;
+    text-align: center;
   }
 
   .chooserow {
@@ -193,6 +200,52 @@ a:active {
     top: -66px;
     left: 0%;
   }
+
+/* Footer Section */
+  .footer-section {
+    background-image: url('../images/bg-fotter-2.jpg');
+    background-size: cover;
+    background-position: top 15% center;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+  .footer1 {
+    padding: 5% 0% 5% 0%;
+  }
+
+  .bottom-logo {
+    max-width: 300px;
+  margin-bottom: 20px;
+  }
+
+  .award-img {
+    max-width: 200px;
+    margin-top: 30px;
+  }
+
+  .site-map ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .site-map ul li {
+    margin-bottom: 10px;
+  }
+  
+  .site-map ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+
+/* Copyright Section */
+.footer2 {
+  background-color: #1c3a5e;
+  color: #fff;
+  line-height: 35px;
+  display: inline-block;
+  padding: 0% 22% 2% 22%;
+}
 
   /* Style for buttons */
 .top-button {
@@ -228,128 +281,8 @@ a:active {
 }
 
 img {
-  width: 100%; /* Image will always take 100% width of its container */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  height: auto;
 }
   
- /* Breakpoints */
-@media (max-width: 425px) {
-  .logoimg {
-    width: 85%;
-    padding-bottom: 2%;
-  }
-  .logo-section {
-    text-align: center;
-    padding: 1% 0% 3% 3%;
-  }
-  .top-button {
-    text-align: center;
-    width: 50%;
-    font-size: 12px;
-  }
-  .logo-section {
-    text-align: center;
-  }
-  .nav-container {
-    white-space: nowrap;
-    text-align: center;
-    font-size: small;
-  }
-  .hero-wrapper {
-    width: 100%;
-    height: 240px;
-  }
-  .hero-content {
-    top: 57.6%;
-    left: 37%;
-    width: 44%;
-  }
-}
-
-@media (max-width: 576px) {
-  .logo-section {
-    padding: 1% 0% 2% 3%;
-  }
-  .top-button {
-    text-align: center;
-    width: 38%;
-    font-size: 14px;
-  }
-  .logo-section {
-    text-align: center;
-  }
-  .hero-wrapper {
-    width: 100%;
-    height: 260px;
-  }
-  .hero-content {
-    top: 53.9%;
-    left: 39%;
-    width: 39%;
-  }
-}
-
-@media (max-width: 768px) {
-  .top-button {
-    text-align: center;
-    width: 50%;
-    font-size: 16px;
-  }
-  .logo-section {
-    text-align: center;
-  }
-  .hero-wrapper {
-    width: 100%;
-    height: 360px;
-  }
-  .hero-content {
-    top: 51.8%;
-    left: 37%;
-    width: 44%;
-  }
-}
-
-@media (max-width: 1024px) {
-  .nav-section {
-    padding: 0% 0% 0% 4.3%;
-  }
-  .hero-wrapper {
-    width: 100%;
-    height: 460px;
-  }
-  .hero-content {
-    top: 52.8%;
-    left: 38%;
-    width: 420px;
-  }
-}
-
-@media (max-width: 1440px) {
-  .nav-section {
-    padding: 0% 0% 0% 5.5%;
-  }
-  .hero-wrapper {
-    width: 100%;
-    height: 560px;
-  }
-  .hero-content {
-    top: 54.4%;
-    left: 40%;
-    width: 480px;
-  }
-}
-
-@media (max-width: 1920px) {
-  .nav-section {
-    padding: 0% 0% 0% 17%;
-  }
-  .hero-wrapper {
-    width: 100%;
-    height: 660px;
-  }
-  .hero-content {
-    top: 54.8%;
-    left: 41%;
-    width: 560px;
-  }
-}
+ /* Breakpoints */ @media (max-width: 1920px) { .nav-section { padding: 0% 0% 0% 17%; } .hero-wrapper { width: 100%; height: 660px; } .hero-content { top: 54.8%; left: 41%; width: 560px; } } @media (max-width: 1440px) { .nav-section { padding: 0% 0% 0% 5.5%; } .hero-wrapper { width: 100%; height: 560px; } .hero-content { top: 54.4%; left: 40%; width: 480px; } } @media (max-width: 1024px) { .nav-section { padding: 0% 0% 0% 4.3%; } .hero-wrapper { width: 100%; height: 460px; } .hero-content { top: 52.8%; left: 38%; width: 420px; } } @media (max-width: 768px) { .top-button { text-align: center; width: 50%; font-size: 16px; } .logo-section{ text-align: center; } .hero-wrapper { width: 100%; height: 360px; } .hero-content { top: 51.8%; left: 37%; width: 44%; } } @media (max-width: 576px) { .logo-section { padding: 1% 0% 2% 3%; } .top-button { text-align: center; width: 38%; font-size: 14px; } .logo-section{ text-align: center; } .hero-wrapper { width: 100%; height: 260px; } .hero-content { top: 53.9%; left: 39%; width: 39%; } } @media (max-width: 425px) { .logoimg { width: 85%; padding-bottom: 2%; } .logo-section { text-align: center; padding: 1% 0% 3% 3%; } .top-button { text-align: center; width: 50%; font-size: 12px; } .logo-section{ text-align: center; } .nav-container { white-space: nowrap; text-align: center; font-size: small; } .hero-wrapper { width: 100%; height: 240px; } .hero-content { top: 57.6%; left: 37%; width: 44%; } }
