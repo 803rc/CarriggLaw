@@ -620,7 +620,7 @@ img {
   }
 }
 
-@media (max-width: 384px) {
+@media (max-width: 360px) {
   .logoimg {
     width: 85%;
     padding-bottom: 2%;
@@ -653,9 +653,14 @@ img {
   }
 
   .hero-content {
-    top: 60.8%;
+    top: 62.6%;
     left: 37%;
     width: 44%;
+  }
+
+  .phone-number-image {
+    margin-top: -8%;
+    width: 70%;
   }
 
   .cardcol {
@@ -674,14 +679,24 @@ img {
     font-size: 14px;
   }
 
+  .attbio {
+    padding: 2% 10% 0% 10%;
+  }
+  
+  .biotext {
+    text-align: justify;
+    display: inline-block;
+    padding: 0% 0% 0% 0%;
+  }
+
   .chooserow {
     padding: 3% 0% 0% 0%;
     background-color: #8d1812;
-    height: 125px;
+    height: 120px;
   }
   
   .choosediv {
-    max-width: 130px;
+    max-width: 120px;
     padding: 0% 3% 0% 3%;
   }
 
