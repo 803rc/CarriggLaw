@@ -335,6 +335,45 @@ img {
     left: 40%;
     width: 480px;
   }
+
+  .cardcol {
+    max-width: 125px;
+    display: block;
+    background-color: #1c3a5e;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 2%;
+  }
+
+  .chooserow {
+    padding: 3% 0% 0% 0%;
+    background-color: #8d1812;
+    height: 145px;
+  }
+  
+  .choosediv {
+    max-width: 220px;
+    padding: 0% 3% 0% 3%;
+  }
+
+  .chooseimg {
+    position: relative;
+    top: -49px;
+    left: 0%;
+  }
+
+  .footer2 {
+    font-size: 12px;
+    background-color: #1c3a5e;
+    color: #fff;
+    line-height: 35px;
+    display: inline-block;
+    padding: 1% 10% 0% 10%;
+    width: 100%;
+  }
 }
 
 @media (max-width: 1024px) {
