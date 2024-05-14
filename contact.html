@@ -99,74 +99,13 @@
     </section>
   </div>
 
-  <!-- Practice Areas Section -->
-  <section class="practice-areas">
-    <div class="cardspace">
-      <h2 class="decorated-heading" id="practice-areas">PRACTICE AREAS</h2>
-      <div class="row cardrow">
-        <div class="cardcol" id="personal-injury">
-          <a href="personal-injury.html" class="cardlink">
-            <img class="card-icon" src="images/lexington-injury-lawyer-icon.png">
-            <p class="card-text">PERSONAL<br>INJURY</p>
-            <img src="images/lexington-sc-injury-lawyer.jpg" class="card-img-bottom"
-              alt="image of distraught man after an auto accident">
-
-        </a>
-        </div>
-        <div class="cardcol" id="criminal-defense">
-          <a href="criminal-defense.html" class="cardlink">
-            <img class="card-icon" src="images/lexington-criminal-defense-icon.png">
-            <p class="card-text">CRIMINAL<br>DEFENSE</p>
-            <img src="images/lexington-sc-criminal-defense-lawyer1.jpg" class="card-img-bottom"
-              alt="image of a man in handcuffs">
-
-          </a>
-        </div>
-        <div class="cardcol" id="workers-comp">
-          <a href="workers-comp.html" class="cardlink">
-            <img class="card-icon" src="images/lexington-workers-comp-lawyer.png">
-            <p class="card-text">WORKERS<br>COMP</p>
-            <img src="images/lexington-sc-workers-comp-lawyer.jpg" class="card-img-bottom"
-              alt="image of an injured worker">
-
-          </a>
-        </div>
-        <div class="cardcol" id="family-law">
-          <a href="family-law.html" class="cardlink">
-            <img class="card-icon" src="images/lexington-divorce-lawyer.png">
-            <p class="card-text">FAMILY<br>LAW</p>
-            <img src="images/lexington-sc-family-lawyer.jpg" class="card-img-bottom" alt="image of a divorce decree">
-
-          </a>
-        </div>
-        <div class="cardcol" id="dui-defense">
-          <a href="dui-defense.html" class="cardlink">
-            <img class="card-icon" src="images/lexington-DUI-defense-icon.png">
-            <p class="card-text">DUI<br>DEFENSE</p>
-            <img src="images/lexington-sc-DUI-defense-lawyer1.jpg" class="card-img-bottom"
-              alt="image of a man pulled over by police">
-
-          </a>
-        </div>
-        <div class="cardcol" id="k2spice-cases">
-          <a href="k2.spice-cases.html" class="cardlink">
-            <img class="card-icon" src="images/lexington-K2-SPICES-icon.png">
-            <p class="card-text">K2/SPICE<br>CASES</p>
-            <img src="images/lexington-K2-SPICE-CASES-defense-lawyer1.jpg" class="card-img-bottom"
-              alt="image of K2/Spice substance">
-
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Lexington SC Injury Lawyer Section -->
   <section class="attbio">
     <div class="row">
       <div class="biodiv">
         <div>
           <h2 class="decorated-heading" id="bio-header">CONTACT INFORMATION</h2>
+          <form id="contactForm" onsubmit="return validateForm()"></form>
           <div class="office-hours">
             <h3>Office Hours</h3>
             <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
@@ -179,34 +118,29 @@
           
           <div class="email">
             <h3>Email</h3>
-            <form id="contactForm" onsubmit="return validateForm()">
+            
               <div class="form-group">
-                <label for="firstName">First Name:</label>
-                <input type="text" id="firstName" name="firstName" required>
+                <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
                 <span class="error-message"></span>
               </div>
             
               <div class="form-group">
-                <label for="lastName">Last Name:</label>
-                <input type="text" id="lastName" name="lastName" required>
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
                 <span class="error-message"></span>
               </div>
             
               <div class="form-group">
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
                 <span class="error-message"></span>
               </div>
             
               <div class="form-group">
-                <label for="phoneNumber">Phone Number:</label>
-                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" required>
                 <span class="error-message"></span>
               </div>
             
               <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4"></textarea>
+                <textarea id="message" name="message" rows="4" placeholder="Message"></textarea>
               </div>
             
               <button type="submit">Submit</button>
