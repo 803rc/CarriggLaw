@@ -17,6 +17,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;0,900;1,400&family=Ubuntu:wght@500;700&display=swap"
     rel="stylesheet">
+  <script src="js/validate.js"></script>
   <link rel="stylesheet" href="css/stylesheet.css">
   
 </head>
@@ -56,7 +57,7 @@
                 data-bs-toggle="dropdown" aria-expanded="false"> PRACTICE AREAS </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li>
-                  <a class="dropdown-item" href="#personal-injury-header">PERSONAL INJURY</a>
+                  <a class="dropdown-item" href="personal-injury.html">PERSONAL INJURY</a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="criminal-defense.html">CRIMINAL DEFENSE</a>
@@ -173,12 +174,43 @@
           
           <div class="phone">
             <h3>Phone</h3>
-            <p><a href="tel:+1234567890">(123) 456-7890</a></p>
+            <p><a href="tel:+1234567890">(803) 785-5511</a></p>
           </div>
           
           <div class="email">
             <h3>Email</h3>
-            <p><a href="mailto:info@example.com">info@example.com</a></p>
+            <form id="contactForm" onsubmit="return validateForm()">
+              <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+                <span class="error-message"></span>
+              </div>
+            
+              <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+                <span class="error-message"></span>
+              </div>
+            
+              <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message"></span>
+              </div>
+            
+              <div class="form-group">
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                <span class="error-message"></span>
+              </div>
+            
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+              </div>
+            
+              <button type="submit">Submit</button>
+            </form>
           </div>
           
           <div class="address">
