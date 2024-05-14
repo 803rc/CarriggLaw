@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Merriweather', serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 25px;
   font-weight: 300;
   overflow-x: hidden;
@@ -18,7 +18,7 @@ h4,
 h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-weight: 650;
 }
 
 
@@ -56,6 +56,7 @@ img {
   position: relative;
   display: inline-block;
   padding: 0 20px;
+  margin-bottom: 1%;
 }
 
 .decorated-heading:before,
@@ -150,6 +151,10 @@ img {
   justify-content: center;
 }
 
+.cardrow {
+  margin-top: -1%;
+}
+
 .cardcol {
   max-width: 145px;
   display: block;
@@ -197,7 +202,32 @@ img {
 .biotext {
   text-align: justify;
   display: inline-block;
-  padding: 2% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+}
+
+.centered-list {
+  text-align: center;
+}
+
+.centered-list ul {
+  display: inline-block;
+  text-align: left;
+}
+
+.centered-list li {
+  text-align: left;
+}
+
+.left-img-div {
+  overflow: auto;
+}
+
+.left-img {
+  float: left;
+  margin-right: 15px;
+  width: 5.5rem;
+  border-radius: 10px;
+  border: 2px solid #152542;
 }
 
 /* Why Choose Us? Section */
