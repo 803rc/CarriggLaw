@@ -234,14 +234,29 @@ img {
   border: 2px solid #152542;
 }
 
-.form-group {
-  padding: .3rem;
+.contact-div {
+  align-content: center;
+  padding: .5rem;
+}
+
+.contact {
+  background-color: #8d1812;
+  padding: 5px;
+  border-style: solid;
+  border-radius: 18px;
+  border-color: #022444;
+}
+
+.phone {
+  padding-bottom: 2rem;
 }
 
 .map {
   overflow: hidden;
-  border: 4px solid #ff7f50;
+  border: solid;
   border-radius: 10px;
+  border-color: #022444;
+  width: 300px;
 }
 
 /* Why Choose Us? Section */
@@ -618,7 +633,7 @@ img {
   }
 	
   .phone-number-image {
-	width: 70%	
+	width: 70%;
   }
 	
   .cardspace {
