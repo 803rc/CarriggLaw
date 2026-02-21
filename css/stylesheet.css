@@ -308,6 +308,11 @@ img {
   margin-bottom: 20px;
 }
 
+.fb-img {
+  max-width: 124px;
+  margin-top: 10px;
+}
+
 .award-img {
   max-width: 200px;
   margin-top: 10px;
